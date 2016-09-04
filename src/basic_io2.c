@@ -2,7 +2,7 @@
 Exercise #2 from my college
 
 Make a program to read and write on console the following data:
-1.Name; 2.Address; 3.City; 4.Zip code; 5. Phone number;
+1.Name; 2.Address; 3.City; 4.Zip code; 5.Phone number;
 */
 #include <stdio.h>
 
