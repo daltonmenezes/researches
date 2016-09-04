@@ -9,7 +9,7 @@ int main() {
   int zip_code;
   int phone_number;
 
-	printf("Type your first name: ");
+  printf("Type your first name: ");
   scanf("%s", first_name);
 
   printf("Type your adress: ");
