@@ -1,6 +1,12 @@
-// Exercise #2 from my college
-
 #include <stdio.h>
+
+/*
+Exercise #2 from my college
+
+Make a program to read and write on console the following data:
+1.Name; 2.Adress; 3.City; 4.Zip code; 5. Phone number;
+
+*/
 
 int main() {
   char first_name[20];
