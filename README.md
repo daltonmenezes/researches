@@ -1,2 +1,2 @@
-# learning-C
-Stuff about my researches in C language
+# Researches
+Stuff about my researches in programming languages
