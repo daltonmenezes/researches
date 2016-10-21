@@ -1,2 +1,2 @@
 # Researches
-Stuff about my researches in programming languages
+Stuff about my researches in software development
