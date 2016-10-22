@@ -9,7 +9,8 @@ rsort($numbers);
 foreach ($numbers as $index => $value) {
   if ($index == $last_number) {
     echo $value;
-  } else {
+  } 
+  else {
     echo $value.' | ';
   }
 }
