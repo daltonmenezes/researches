@@ -5,6 +5,6 @@ Stuff about my researches in software development
 * [PHP]
 
  [C]: <https://github.com/daltonmenezes/researches/tree/master/src/C>
- [PHP]: <https://github.com/daltonmenezes/researches/tree/master/src/php>
+ [PHP]: <https://github.com/daltonmenezes/researches/tree/master/src/PHP>
 
 
