@@ -8,16 +8,19 @@ function fib_sequence($number) {
   $f1 = -1;
   $f2 = 1;
   $counter = 0;
+  $numbers = [];
 
   while ($counter <= $number) {
     $f = $f1 + $f2;
-    echo $f.' | ';
+    $numbers[$counter] = $f;
 
     $f1 = $f2;
     $f2 = $f;
 
     $counter++;
   }
+
+  return $numbers;
 }
 
-echo fib_sequence(20);
+var_dump(fib_sequence(20));
