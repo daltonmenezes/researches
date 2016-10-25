@@ -4,9 +4,11 @@
 * [C]
 * [PHP]
 * [Python]
+* [JavaScript]
 
  [C]: <https://github.com/daltonmenezes/researches/tree/master/src/C>
  [PHP]: <https://github.com/daltonmenezes/researches/tree/master/src/PHP>
  [Python]: <https://github.com/daltonmenezes/researches/tree/master/src/Python>
+ [JavaScript]: <https://github.com/daltonmenezes/researches/tree/master/src/JavaScript>
 
 
