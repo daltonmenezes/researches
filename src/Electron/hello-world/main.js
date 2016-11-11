@@ -8,11 +8,9 @@ let mainWindow;
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
     title: 'Hello World',
-    minWidth: 266,
-    minHeight: 150,
+    width: 266,
+    height: 150,
     center: true,
-    resizable: true,
-    movable: true,
   });
 
   mainWindow.loadURL('file://' + __dirname + '/index.html');
@@ -23,7 +21,8 @@ app.on('ready', () => {
   });
 });
 
-app.on('activate', (e) => {
+// Restore the window on Mac when the user click on the app icon in the dock
+app.on('activate', () => {
   mainWindow.restore();
 });
 
