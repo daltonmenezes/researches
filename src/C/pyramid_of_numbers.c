@@ -1,7 +1,7 @@
 /* Pyramid of numbers
 Exercise #7 from my college
 
-Make a program that's receive a number and print it like a pyramid in descending order.
+Make a program that's receive a number and print it like a pyramid in ascending order.
 Example with number 5 inputted. The output must be like that:
 
 1
