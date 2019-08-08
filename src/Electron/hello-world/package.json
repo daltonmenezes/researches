@@ -1,14 +1,11 @@
 {
-  "name": "Hello World",
+  "name": "hello-world",
   "version": "1.0.0",
-  "description": "A simple hello world application",
+  "description": "A simple hello world application in Electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "Dalton Menezes",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-prebuilt": "1.4.5"
-  }
+  "license": "MIT"
 }
