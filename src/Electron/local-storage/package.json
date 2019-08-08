@@ -1,0 +1,11 @@
+{
+  "name": "local-storage",
+  "version": "1.0.0",
+  "description": "A simple localStorage application for Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Dalton Menezes",
+  "license": "MIT"
+}

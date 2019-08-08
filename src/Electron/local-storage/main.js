@@ -1,6 +1,4 @@
-'use strict';
-
-const {app, BrowserWindow} = require('electron')
+const { app, BrowserWindow } = require('electron')
 
 let mainWindow
 
@@ -9,23 +7,19 @@ app.on('ready', () => {
     title: 'localStorage',
     width: 400,
     height: 250,
-    center: true,
+    center: true
   })
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 
-  mainWindow.on('closed', () => {
-    mainWindow = null;
-    app.quit()
-  })
+  mainWindow.on('closed', () => app.quit())
 })
 
 // Restore the window on Mac when the user click on the app icon in the dock
-app.on('activate', () => {
-  mainWindow.restore()
-})
+app.on('activate', () => mainWindow.restore())
 
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin')
-      app.quit()
+  process.platform !== 'darwin'
+    ? app.quit()
+    : ''
 })
