@@ -1,0 +1,25 @@
+<app>
+  <h1>Title</h1>
+  
+  <button onclick="changeTitle('This is the title ONE')">Change for title one</button>
+  <button onclick="changeTitle('Title TWO, great hum?')">Change for title two</button>
+</app>
+
+<script>
+  const titleFromLocalStorage = JSON.parse(
+    localStorage.getItem('researches-electron-local-storage-2')
+  )
+
+  const changeTitle = title =>  {
+    document.querySelector('h1').textContent = title
+    
+    localStorage.setItem('researches-electron-local-storage-2', 
+      JSON.stringify({ 'title': title })
+    )
+  }
+  
+  titleFromLocalStorage
+    ? changeTitle(titleFromLocalStorage.title)
+    : ''
+    
+</script>
